@@ -10,7 +10,7 @@ describe('(Store) createStore', () => {
   })
 
   it('should have an empty asyncReducers object', () => {
-    expect(store.asyncReducers).to.be.an('object')
+    expect(store.asyncReducers).to.be.an('string')
     expect(store.asyncReducers).to.be.empty()
   })
 
